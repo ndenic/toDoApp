@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainMenu.allTaskController">
+   <children>
+      <JFXDrawer fx:id="drawer2" defaultDrawerSize="210.0" layoutX="-3.0" layoutY="-3.0" prefHeight="596.0" prefWidth="190.0" />
+      <JFXHamburger fx:id="hamburger2" layoutX="746.0" layoutY="14.0" />
+      <Label layoutX="381.0" layoutY="16.0" prefHeight="31.0" prefWidth="105.0" text="Tasks">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c510Tm/clipboard.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="238.0" layoutY="47.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="65.0" prefHeight="61.0" prefWidth="444.0" />
+      <Label layoutX="238.0" layoutY="133.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="150.0" prefHeight="61.0" prefWidth="444.0" />
+      <Label layoutX="238.0" layoutY="217.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="234.0" prefHeight="61.0" prefWidth="444.0" />
+      <Label layoutX="238.0" layoutY="304.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="321.0" prefHeight="61.0" prefWidth="444.0" />
+      <Label layoutX="238.0" layoutY="390.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="407.0" prefHeight="61.0" prefWidth="444.0" />
+      <Label layoutX="238.0" layoutY="478.0" text="Subject">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="238.0" layoutY="495.0" prefHeight="61.0" prefWidth="444.0" />
+      <JFXButton layoutX="671.0" layoutY="62.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="18.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="88.0" prefHeight="38.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="143.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="174.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="227.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="258.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="314.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="345.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="400.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="431.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="488.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/c1rE4R/checked.png " />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="671.0" layoutY="519.0" prefHeight="25.0" prefWidth="105.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/dGUyER/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="720.0" layoutY="556.0">
+         <graphic>
+            <ImageView fitHeight="18.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/cz6QTm/refresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

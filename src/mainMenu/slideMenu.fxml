@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.JFXDrawer?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="234.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://preview.ibb.co/eYy8Bw/132.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton accessibleText="add" buttonType="RAISED" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="289.0" text="Add task">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/kd0S4G/ic_assignment_turned_in_black_24dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton accessibleText="all" buttonType="RAISED" prefHeight="59.0" prefWidth="234.0" text="All tasks">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/i52Arw/ic_assignment_black_24dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" prefHeight="65.0" prefWidth="231.0" text="Awards">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/hLcVeR/trophy_cup_silhouette.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" prefHeight="62.0" prefWidth="233.0" text="Author">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/nnujJb/ic_assignment_ind_black_24dp_2x.png" /> 
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton accessibleText="close" alignment="CENTER" buttonType="RAISED" prefHeight="157.0" prefWidth="232.0" text="Get me out !">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://image.ibb.co/fbac4G/ic_close_black_24dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

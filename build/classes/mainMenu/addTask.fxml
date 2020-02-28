@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addTask" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainMenu.addTaskController">
+   <children>
+      <JFXTextArea layoutX="297.0" layoutY="116.0" prefHeight="186.0" prefWidth="464.0" unFocusColor="BLACK">
+         <tooltip>
+            <Tooltip text="Here u can write whatever u want or need to do" />
+         </tooltip>
+      </JFXTextArea>
+      <JFXButton layoutX="624.0" layoutY="537.0" prefHeight="25.0" prefWidth="137.0" text="Insert">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXDatePicker defaultColor="BLACK" layoutX="297.0" layoutY="343.0" prefHeight="28.0" prefWidth="207.0" />
+      <RadioButton layoutX="336.0" layoutY="396.0" mnemonicParsing="false" text="RED" textFill="RED">
+         <toggleGroup>
+            <ToggleGroup fx:id="priorityColor" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="336.0" layoutY="425.0" mnemonicParsing="false" text="BLUE" textFill="#0004ff" toggleGroup="$priorityColor" />
+      <RadioButton layoutX="336.0" layoutY="457.0" mnemonicParsing="false" text="GREEN" textFill="#3cb554" toggleGroup="$priorityColor" />
+      <JFXHamburger fx:id="hamburger1" layoutX="746.0" layoutY="14.0" />
+      <JFXDrawer fx:id="drawer1" defaultDrawerSize="210.0" layoutY="-2.0" prefHeight="597.0" prefWidth="215.0" />
+      <StackPane fx:id="stackPane" layoutX="276.0" layoutY="390.0" prefHeight="47.0" prefWidth="43.0">
+         <children>
+            <JFXButton fx:id="tipBtn" contentDisplay="GRAPHIC_ONLY" onAction="#dialog" prefHeight="27.0" prefWidth="11.0">
+               <tooltip>
+                  <Tooltip text="Click for advice !" />
+               </tooltip>
+               <graphic>
+                  <ImageView fitHeight="19.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://image.ibb.co/hvrVR6/icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </StackPane>
+      <JFXTextField layoutX="472.0" layoutY="59.0" prefHeight="25.0" prefWidth="229.0" unFocusColor="BLACK" />
+      <Label layoutX="472.0" layoutY="27.0" prefHeight="17.0" prefWidth="130.0" text="Subject">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="84.0" prefHeight="31.0" prefWidth="77.0" text="Body ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
